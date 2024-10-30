@@ -1,129 +1,80 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil de GitHub - [Tu Nombre]</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #004643;
-            color: white;
-            padding: 40px;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        header p {
-            margin: 10px 0 0;
-            font-size: 1.2em;
-        }
-        section {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-        }
-        section h2 {
-            border-bottom: 2px solid #006837;
-            padding-bottom: 10px;
-            color: #006837;
-            margin-bottom: 20px;
-        }
-        .skills ul, .projects ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .skills ul li, .projects ul li {
-            background-color: #e9e9e9;
-            padding: 15px;
-            margin: 10px 0;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-        .skills ul li:hover, .projects ul li:hover {
-            background-color: #d4e157;
-        }
-        .social-media {
-            text-align: center;
-            padding: 20px;
-            background-color: #333;
-            color: white;
-        }
-        .social-media a {
-            color: white;
-            margin: 0 15px;
-            font-size: 25px;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-        .social-media a:hover {
-            color: #d4e157;
-        }
-        footer {
-            text-align: center;
-            margin: 40px 0 20px;
-        }
-    </style>
-</head>
-<body>
+<img src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" width="50%" align="right" alt="Github Header Image" />
 
-<header>
-    <h1>[Tu Nombre]</h1>
-    <p>Estudiante de Sistemas Computacionales</p>
-    <p>Universidad de Guanajuato</p>
-</header>
+# ¡Hola! 👋 Soy [Tu Nombre]
 
-<section class="about">
-    <h2>Acerca de mí</h2>
-    <p>Soy un estudiante apasionado por el desarrollo de software y la resolución de problemas. Me especializo en la creación de aplicaciones y el uso de diversas tecnologías para abordar retos del mundo real. He trabajado en proyectos tanto académicos como personales, siempre con un enfoque en la eficiencia y la escalabilidad.</p>
-</section>
+## 👨‍💻 Estudiante de Ingeniería en Sistemas Computacionales
 
-<section class="skills">
-    <h2>Habilidades y Tecnologías</h2>
-    <ul>
-        <li>Python</li>
-        <li>JCreator</li>
-        <li>C/C++/C#</li>
-        <li>NetBeans</li>
-        <li>PSEINT</li>
-        <li>Visual Studio / Visual Studio Code</li>
-        <li>HTML / CSS / JavaScript</li>
-        <li>MATLAB</li>
-        <li>MySQL</li>
-    </ul>
-</section>
+Soy estudiante en la Universidad de Guanajuato, apasionado por la tecnología y el desarrollo de software. Me encanta aprender nuevas tecnologías y trabajar en proyectos desafiantes.
 
-<section class="projects">
-    <h2>Proyectos</h2>
-    <ul>
-        <li>Aplicación web para la gestión de datos con Vue.js y Node.js</li>
-        <li>Proyecto de análisis de datos utilizando Python y MySQL</li>
-        <li>Desarrollo de una app móvil en C# para seguimiento de tareas</li>
-        <li>Simulación de algoritmos en MATLAB para procesamiento de señales</li>
-    </ul>
-</section>
+- 🎓 Estudiante de Ingeniería en Sistemas Computacionales en UG
+- 💻 Desarrollador Full Stack en formación
+- 🌱 Siempre aprendiendo nuevas tecnologías
+- 👯 Buscando colaborar en proyectos innovadores
+- 💬 Pregúntame sobre desarrollo web y programación
 
-<div class="social-media">
-    <h2>Sígueme en mis redes</h2>
-    <a href="https://www.facebook.com/tu-usuario" target="_blank">Facebook</a>
-    <a href="https://www.instagram.com/tu-usuario" target="_blank">Instagram</a>
-    <a href="https://github.com/tu-usuario" target="_blank">GitHub</a>
-</div>
+## 🚀 Tecnologías y Herramientas
 
-<footer>
-    <p>&copy; 2024 [Tu Nombre] - Todos los derechos reservados</p>
-</footer>
+### Lenguajes de Programación:
+<p align="left">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html5" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="css3" width="40" height="40"/>
+</p>
 
-</body>
-</html>
+### IDEs y Herramientas:
+<p align="left">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" alt="visual studio" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vscode" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/netbeans/netbeans-original.svg" alt="netbeans" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matlab/matlab-original.svg" alt="matlab" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="mysql" width="40" height="40"/>
+</p>
+
+## 📊 Mis Estadísticas de GitHub
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=TU_USERNAME&show_icons=true&theme=radical" alt="Estadísticas de GitHub" />
+</p>
+
+<p align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=TU_USERNAME&theme=radical" alt="GitHub Streak" />
+</p>
+
+## 🌟 Proyectos Destacados
+
+- 🚀 [Nombre del Proyecto 1] - Breve descripción
+- 💻 [Nombre del Proyecto 2] - Breve descripción
+- 🌐 [Nombre del Proyecto 3] - Breve descripción
+
+## 📫 Contacto y Redes Sociales
+
+<p align="left">
+<a href="https://www.facebook.com/TU_PERFIL" target="_blank">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/facebook/facebook-original.svg" alt="facebook" width="40" height="40"/>
+</a>
+<a href="https://www.instagram.com/TU_PERFIL" target="_blank">
+<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="instagram" width="40" height="40"/>
+</a>
+<a href="https://github.com/TU_USERNAME" target="_blank">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="github" width="40" height="40"/>
+</a>
+</p>
+
+## 🎵 Spotify Playing
+
+[![Spotify](https://novatorem2-alpha.vercel.app/api/spotify)](https://open.spotify.com/user/TU_USUARIO_SPOTIFY)
+
+---
+
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=TU_USERNAME&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/TU_USERNAME/TU_USERNAME/blob/output/github-contribution-grid-snake.svg" alt="snake">
+</p>
