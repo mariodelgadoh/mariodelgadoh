@@ -102,16 +102,3 @@
 
 [![Spotify](https://novatorem2-alpha.vercel.app/api/spotify)](https://open.spotify.com/user/TU_USUARIO_SPOTIFY)
 
-## 🐍 Contribuciones
-
-<p align="center">
-  <img src="https://github.com/TU_USERNAME/TU_USERNAME/blob/output/github-contribution-grid-snake.svg" alt="snake">
-</p>
-
----
-
-<p align="center">
-    <img src="https://komarev.com/ghpvc/?username=TU_USERNAME&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
-</p>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
