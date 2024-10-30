@@ -71,44 +71,18 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Apache_NetBeans_Logo.svg/1200px-Apache_NetBeans_Logo.svg.png" alt="netbeans" width="40" height="40"/> 
     </a>
     <a href="https://www.pseint.com/" target="_blank"> 
-        <img src="https://www.pseint.com/img/logo.png" alt="pseint" width="40" height="40"/> 
+        <img src="https://i.ibb.co/NK3v7vt/pseint-icon.png" alt="pseint" width="40" height="40"/> 
     </a>
-</p>
-
-## 📊 GitHub Stats
-
-<p align="center">
-    <a href="https://github.com/anuraghazra/github-readme-stats">
-        <img alt="Github Stats" src="https://github-readme-stats.vercel.app/api?username=TU_USERNAME&show_icons=true&count_private=true&theme=algolia&hide_border=true&bg_color=0D1117" />
-    </a>
-</p>
-
-<p align="center">
-    <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
-        <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Streak Stats" src="https://github-readme-streak-stats.herokuapp.com/?user=TU_USERNAME&theme=algolia&hide_border=true&bg_color=0D1117"/>
-    </a>
-</p>
-
-<p align="center">
-    <a href="https://github.com/anuraghazra/github-readme-stats">
-        <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USERNAME&langs_count=8&count_private=true&layout=compact&theme=algolia&hide_border=true&bg_color=0D1117" />
-    </a>
-</p>
-
-<p align="center">
-    <a href="https://github.com/Ashutosh00710/github-readme-activity-graph">
-        <img alt="Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=TU_USERNAME&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" />
+    <a href="https://www.jcreator.org/" target="_blank"> 
+        <img src="https://i.ibb.co/G3QvGxr/jcreator-icon.png" alt="jcreator" width="40" height="40"/> 
     </a>
 </p>
 
 ## 🌟 Proyectos Destacados
 
-<a href="https://github.com/TU_USERNAME/proyecto1">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=TU_USERNAME&repo=proyecto1&theme=algolia" />
-</a>
-<a href="https://github.com/TU_USERNAME/proyecto2">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=TU_USERNAME&repo=proyecto2&theme=algolia" />
-</a>
+- 🚀 Proyecto 1 - [Nombre del Proyecto] - Breve descripción
+- 💻 Proyecto 2 - [Nombre del Proyecto] - Breve descripción
+- 🌐 Proyecto 3 - [Nombre del Proyecto] - Breve descripción
 
 ## 🤝 Conecta Conmigo
 
