@@ -48,12 +48,6 @@
   <img src="https://cdn.worldvectorlogo.com/logos/sublime-text.svg" alt="sublime" width="40" height="40"/>
 </div>
 
-## 🌟 Proyectos Destacados
-
-- 🚀 [Nombre del Proyecto 1](link-al-proyecto) - Breve descripción
-- 💻 [Nombre del Proyecto 2](link-al-proyecto) - Breve descripción
-- 🌐 [Nombre del Proyecto 3](link-al-proyecto) - Breve descripción
-
 ## 🤝 Conecta Conmigo
 
 <div align="left">
