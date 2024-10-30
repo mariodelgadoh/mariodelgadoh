@@ -6,25 +6,38 @@
     <title>Perfil de GitHub - [Tu Nombre]</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: #f4f4f9;
             color: #333;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #006837;
+            background-color: #004643;
             color: white;
-            padding: 20px;
+            padding: 40px;
             text-align: center;
         }
         header h1 {
             margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
         }
         section {
+            max-width: 900px;
+            margin: 40px auto;
             padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
         }
-        .skills, .projects {
+        section h2 {
+            border-bottom: 2px solid #006837;
+            padding-bottom: 10px;
+            color: #006837;
             margin-bottom: 20px;
         }
         .skills ul, .projects ul {
@@ -33,33 +46,47 @@
         }
         .skills ul li, .projects ul li {
             background-color: #e9e9e9;
-            padding: 10px;
-            margin: 5px 0;
+            padding: 15px;
+            margin: 10px 0;
             border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .skills ul li:hover, .projects ul li:hover {
+            background-color: #d4e157;
         }
         .social-media {
             text-align: center;
             padding: 20px;
             background-color: #333;
+            color: white;
         }
         .social-media a {
             color: white;
-            margin: 0 10px;
-            font-size: 20px;
+            margin: 0 15px;
+            font-size: 25px;
             text-decoration: none;
+            transition: color 0.3s;
+        }
+        .social-media a:hover {
+            color: #d4e157;
+        }
+        footer {
+            text-align: center;
+            margin: 40px 0 20px;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>[Tu Nombre] - Estudiante de Sistemas Computacionales</h1>
+    <h1>[Tu Nombre]</h1>
+    <p>Estudiante de Sistemas Computacionales</p>
     <p>Universidad de Guanajuato</p>
 </header>
 
 <section class="about">
     <h2>Acerca de mí</h2>
-    <p>Estudiante apasionado de la programación y el desarrollo de software. He trabajado en varios proyectos académicos y personales, utilizando una variedad de lenguajes de programación y entornos de desarrollo. Mi enfoque es en la resolución de problemas y la creación de aplicaciones eficientes y escalables.</p>
+    <p>Soy un estudiante apasionado por el desarrollo de software y la resolución de problemas. Me especializo en la creación de aplicaciones y el uso de diversas tecnologías para abordar retos del mundo real. He trabajado en proyectos tanto académicos como personales, siempre con un enfoque en la eficiencia y la escalabilidad.</p>
 </section>
 
 <section class="skills">
@@ -71,7 +98,7 @@
         <li>NetBeans</li>
         <li>PSEINT</li>
         <li>Visual Studio / Visual Studio Code</li>
-        <li>HTML/CSS/JavaScript</li>
+        <li>HTML / CSS / JavaScript</li>
         <li>MATLAB</li>
         <li>MySQL</li>
     </ul>
@@ -80,9 +107,9 @@
 <section class="projects">
     <h2>Proyectos</h2>
     <ul>
-        <li>Desarrollo de una aplicación web para la gestión de datos (Vue.js y Node.js)</li>
-        <li>Proyecto de análisis de datos con Python y MySQL</li>
-        <li>Desarrollo de una app móvil en C# para el seguimiento de tareas</li>
+        <li>Aplicación web para la gestión de datos con Vue.js y Node.js</li>
+        <li>Proyecto de análisis de datos utilizando Python y MySQL</li>
+        <li>Desarrollo de una app móvil en C# para seguimiento de tareas</li>
         <li>Simulación de algoritmos en MATLAB para procesamiento de señales</li>
     </ul>
 </section>
@@ -93,6 +120,10 @@
     <a href="https://www.instagram.com/tu-usuario" target="_blank">Instagram</a>
     <a href="https://github.com/tu-usuario" target="_blank">GitHub</a>
 </div>
+
+<footer>
+    <p>&copy; 2024 [Tu Nombre] - Todos los derechos reservados</p>
+</footer>
 
 </body>
 </html>
