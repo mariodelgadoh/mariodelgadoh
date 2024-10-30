@@ -6,9 +6,14 @@
     <title>Perfil de GitHub - [Tu Nombre]</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
         body {
             font-family: 'Roboto', sans-serif;
-            background: #1a1a1d;
+            background: linear-gradient(135deg, #1a1a1d, #2b2b2e);
             color: #f1f1f1;
             margin: 0;
             padding: 0;
@@ -17,35 +22,54 @@
 
         header {
             text-align: center;
-            padding: 50px 0;
-            background: #0d0d0d;
+            padding: 60px 0;
+            background: #101010;
+            position: relative;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://cdn.pixabay.com/photo/2017/08/30/12/45/circuit-board-2692640_1280.png') no-repeat center/cover;
+            opacity: 0.1;
+            z-index: 1;
         }
 
         header h1 {
             font-size: 3.5em;
             color: #00a8ff;
-            text-transform: uppercase;
             letter-spacing: 3px;
-            margin: 0;
+            z-index: 2;
+            position: relative;
         }
 
         header h3 {
-            font-size: 1.5em;
+            font-size: 1.7em;
             color: #ff4757;
             letter-spacing: 2px;
             font-weight: 300;
             margin-top: 10px;
+            z-index: 2;
+            position: relative;
         }
 
         header img {
-            width: 120px;
+            width: 150px;
             margin-top: 20px;
+            position: relative;
+            z-index: 2;
         }
 
         section {
             padding: 60px 0;
             max-width: 1200px;
             margin: 0 auto;
+            position: relative;
+            z-index: 2;
         }
 
         section h2 {
@@ -54,13 +78,14 @@
             color: #00a8ff;
             margin-bottom: 50px;
             text-transform: uppercase;
+            position: relative;
         }
 
         section p {
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.05);
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
             font-size: 1.2em;
             line-height: 1.8;
             text-align: justify;
@@ -69,7 +94,7 @@
             max-width: 1000px;
         }
 
-        .skills, .projects {
+        .skills {
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
@@ -79,16 +104,34 @@
         .skill-item {
             width: 200px;
             text-align: center;
+            transition: transform 0.3s ease;
+            perspective: 1000px;
         }
 
         .skill-item img {
-            width: 100px;
+            width: 120px;
+            height: 120px;
             filter: drop-shadow(2px 2px 10px #00a8ff);
-            transition: transform 0.3s ease;
+            transition: transform 0.6s ease;
+            transform: rotateY(0deg);
+            perspective: 1000px;
         }
 
-        .skill-item img:hover {
-            transform: scale(1.1);
+        .skill-item:hover img {
+            transform: rotateY(360deg);
+        }
+
+        .skill-item p {
+            margin-top: 10px;
+            font-size: 1.2em;
+            color: #ddd;
+        }
+
+        .projects {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 30px;
         }
 
         .project-card {
@@ -128,10 +171,11 @@
             text-decoration: none;
             color: #00a8ff;
             margin: 0 10px;
+            transition: color 0.3s;
         }
 
         footer a:hover {
-            text-decoration: underline;
+            color: #ff4757;
         }
 
         /* Animaciones */
@@ -158,12 +202,12 @@
 <section>
     <h2>Acerca de mí</h2>
     <p>
-        Soy un estudiante apasionado por el desarrollo de software y la tecnología. Actualmente, estoy cursando la carrera de Ingeniería en [Carrera] en la Universidad de Guanajuato. Mi enfoque principal es aprender y mejorar mis habilidades en tecnologías como <strong>JavaScript, Python, Vue.js y Node.js</strong>. Me entusiasma trabajar en proyectos colaborativos y siempre busco nuevas oportunidades para crecer profesionalmente.
+        Soy estudiante de la Universidad de Guanajuato, donde actualmente curso la carrera de [tu carrera]. Mi enfoque es el desarrollo de software, especialmente tecnologías como <strong>JavaScript, Python, Vue.js y Node.js</strong>. Me apasiona resolver problemas mediante la programación y crear soluciones innovadoras.
     </p>
 </section>
 
 <!-- Habilidades Técnicas -->
-<section class="skills">
+<section>
     <h2>Habilidades Técnicas</h2>
     <div class="skills">
         <div class="skill-item">
@@ -186,15 +230,17 @@
 </section>
 
 <!-- Proyectos -->
-<section class="projects">
+<section>
     <h2>Proyectos</h2>
-    <div class="project-card">
-        <h3><a href="https://github.com/tuUsuario/proyecto1" style="text-decoration: none; color: #1e90ff;">Proyecto 1: App Universitaria</a></h3>
-        <p>Desarrollo de una aplicación para la gestión de horarios y tareas. Tecnologías: Vue.js, Firebase.</p>
-    </div>
-    <div class="project-card">
-        <h3><a href="https://github.com/tuUsuario/proyecto2" style="text-decoration: none; color: #1e90ff;">Proyecto 2: Portal de Empleos UG</a></h3>
-        <p>Un portal para estudiantes y egresados de la UG que conecta con oportunidades laborales. Tecnologías: React, Node.js.</p>
+    <div class="projects">
+        <div class="project-card">
+            <h3><a href="https://github.com/tuUsuario/proyecto1" style="text-decoration: none; color: #1e90ff;">Proyecto 1: App Universitaria</a></h3>
+            <p>Desarrollo de una aplicación para gestión de tareas y horarios. Tecnologías: Vue.js, Firebase.</p>
+        </div>
+        <div class="project-card">
+            <h3><a href="https://github.com/tuUsuario/proyecto2" style="text-decoration: none; color: #1e90ff;">Proyecto 2: Portal de Empleos UG</a></h3>
+            <p>Plataforma para conectar estudiantes con oportunidades laborales. Tecnologías: React, Node.js.</p>
+        </div>
     </div>
 </section>
 
