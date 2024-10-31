@@ -44,20 +44,18 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vscode" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" alt="visual studio" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apache/apache-original.svg" alt="netbeans" width="40" height="40"/>
-  <img src="https://cdn.worldvectorlogo.com/logos/eclipse-11.svg" alt="eclipse" width="40" height="40"/>
-  <img src="https://cdn.worldvectorlogo.com/logos/sublime-text.svg" alt="sublime" width="40" height="40"/>
 </div>
 
 ## 🤝 Conecta Conmigo
 
 <div align="left">
-  <a href="https://www.facebook.com/TU_PERFIL" target="_blank">
+  <a href="https://www.facebook.com/profile.php?id=100042079922059" target="_blank">
     <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white" alt="Facebook"/>
   </a>
-  <a href="https://www.instagram.com/TU_PERFIL" target="_blank">
+  <a href="https://www.instagram.com/mario__delgado__/" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram"/>
   </a>
-  <a href="https://github.com/TU_USERNAME" target="_blank">
+  <a href="https://github.com/mariodelgadoh" target="_blank">
     <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
 </div>
